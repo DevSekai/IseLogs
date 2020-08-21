@@ -1,7 +1,14 @@
 # IseLogs
 How to use IseLogs ?
 
-You just need use this Trigger :
+Set your webhook url in "Logo_Sv.lua" at line 1.
+
+Set your webhook name in "Logo_Sv.lua" at line 2.
+
+Set your webhook logo url in "Logo_Sv.lua" at line 3.
+-- The logo url must finish by .png or .jpg --
+
+After this just need use this Trigger :
 
 		from client side :
 		TriggerServerEvent('Ise_Logs', Color, Title, Description)
