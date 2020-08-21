@@ -1,6 +1,6 @@
-WebHook = "https://discordapp.com/api/webhooks/744662231152590969/xM-M2QgINdjiho2CLQC3ZaEv8JE8Q0GozC8m0Ub-SBOzNmF7jP5jO81K-2cQZqSi_oV0"
-Name = "Nom du webhook"
-Logo = "https://media.discordapp.net/attachments/743953072266412056/744662695541735504/CoreoLogo.png" -- Le lien dois toujours finir par .png ou .jpg
+WebHook = "Your webhook url"
+Name = "Your webhook name"
+Logo = "Your logo url" -- He must finish by .png or .jpg
 LogsBlue = 3447003
 LogsRed = 15158332
 LogsYellow = 15844367
@@ -11,15 +11,15 @@ LogsGreen = 3066993
 LogsLightBlue = 1752220
 
 RegisterNetEvent('Ise_Logs')
-AddEventHandler('Ise_Logs', function(Color, Titre, Description)
-	Ise_Logs(Color, Titre, Description)
+AddEventHandler('Ise_Logs', function(Color, Title, Description)
+	Ise_Logs(Color, Title, Description)
 end)
 
-function Ise_Logs(Color, Titre, Description)
+function Ise_Logs(Color, Title, Description)
 	local Content = {
 	        {
 	            ["color"] = Color,
-	            ["title"] = Titre,
+	            ["title"] = Title,
 	            ["description"] = Description,
 		        ["footer"] = {
 	                ["text"] = Name,
