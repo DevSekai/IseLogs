@@ -8,6 +8,6 @@ LogsGreen = 3066993
 LogsLightBlue = 1752220
 
 RegisterNetEvent('Ise_Logs')
-AddEventHandler('Ise_Logs', function(Color, Titre, Description)
-	TriggerServerEvent('Ise_Logs', Color, Titre, Description)
+AddEventHandler('Ise_Logs', function(Color, Title, Description)
+	TriggerServerEvent('Ise_Logs', Color, Title, Description)
 end)
